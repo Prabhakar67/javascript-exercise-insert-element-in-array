@@ -12,7 +12,7 @@
     <script>
         let arr = [1, 2, 3, 4, 6, 7, 8, 9];
         let possition = 4;
-        for (let index = arr.length; index >= possition; index--) {
+        for (let index = (arr.length - 1); index >= possition; index--) {
             arr[index + 1] = arr[index];
             if (index == possition) {
                 arr[index] = 5;
